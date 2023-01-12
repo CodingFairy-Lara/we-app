@@ -8,10 +8,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class WeCat
+ * Servlet implementation class WeZezeServlet
  */
 @WebServlet("/hello")
-public class WeCat extends HttpServlet {
+public class WeZezeServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	/**
@@ -22,7 +22,7 @@ public class WeCat extends HttpServlet {
 		response.getWriter()
 		.append("Served at: ")
 		.append(request.getContextPath())
-		.append("cat이 /hello에 응답했습니다.");
+		.append("Zeze가 /hello에 응답했습니다.");
 	}
 
 }
