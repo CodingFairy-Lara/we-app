@@ -22,7 +22,7 @@ public class WeDogServlet extends HttpServlet {
 		response.getWriter()
 			.append("Served at: ")
 			.append(request.getContextPath())
-			.append("dog이 /hello에 응답했습니다.");
+			.append("dog이 /hello에 응답했습니다. ㅋㅋㅋㅋㅋㅋ");
 	}
 
 }
